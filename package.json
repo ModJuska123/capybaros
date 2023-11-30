@@ -41,6 +41,7 @@
   },
   "scripts": {
     "tasks": "nodemon ./001/tasks.js",
+    "tasks1Sprendimai": "nodemon ./001/tasks1Sprendimai.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
