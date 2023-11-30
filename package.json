@@ -42,7 +42,7 @@
   "scripts": {
     "array": "nodemon ./002/array.js",
     "tasks": "nodemon ./001/tasks.js",
-    "tasks1Sprendimai": "nodemon ./001/tasks1Sprendimai.js",
+    "taskDriling": "nodemon ./001/taskDriling.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

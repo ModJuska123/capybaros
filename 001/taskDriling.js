@@ -4,16 +4,14 @@ const item = 'Hello World!';
 function text(item) {return item};
 console.log(text(item));
 
-console.log('2. Parašykite funkciją su dviem argumentais, pirmas argumentas tekstas, įterpiamas atspausdinamas su console.log, o antrasis kiek kartų spausdinimas atliekamas. Rašydami šią funkciją remkitės pirmame uždavinyje parašytą funkciją;')
 
-const item1 = 'Hello World!';
-const number = 3;
-function text(item, number) {
-    for (let i = 0; i < number.length; i++) {
-        const element = array[i];
-        return console.log(text(item, number))
-    }
+console.log('2. ---------')
+// Parašykite funkciją su dviem argumentais, pirmas argumentas tekstas, įterpiamas atspausdinamas su console.log, o antrasis kiek kartų spausdinimas atliekamas. Rašydami šią funkciją remkitės pirmame uždavinyje parašytą funkciją;
 
+const12 = 'Hello World!'
+const number = 2
+const text1 = (const12, number) => const12;
+console.log(const12.repeat(number))
 
 
 // Parašykite funkciją su dviem argumentais, pirmas argumentas tekstas, įterpiamas atspausdinamas su console.log, o antrasis kiek kartų spausdinimas atliekamas. Rašydami šią funkciją remkitės pirmame uždavinyje parašytą funkciją;
