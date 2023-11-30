@@ -1,4 +1,6 @@
-
+// 1. 'pink' to 'black'
+// 2. 'pink' to 'skyblue'
+console.log('1.Pirmas uzd----------------')
 const colors = [
     'pink',
     'orange',
@@ -9,17 +11,11 @@ const colors = [
     'pink'
 ];
 
-// 1. pink to black
-// 2. pink to skyblue
-
-console.log('labas');
-
 const colors1 = [...colors];
 const colors2 = [...colors];
-colors1.forEach((color, index) => {
-    if (color == 'pink'){
-        colors1[index] = 'black';
-    }
+
+colors1.forEach((color, index) => {if (color == 'pink'){colors1[index] = 'black';
+}
 });
 console.log(colors1);
 
