@@ -115,11 +115,15 @@ const j = cats2.find(cat => {
     }
     return counter == what;
 });
-console.log(j);
+console.log(j)
 
-const catsFiltered = cats2.find(cat => if (cat.name == 'Tomas') {
-
+// mano sprendimas
+let number = 0;
+const indexOfCat = 3;
+const catsFiltered2 = cats2.find(cat => {
+    if (cat.name == 'Juodis') {number++;}
+return number == indexOfCat;
 }
-
 )
+console.log(catsFiltered2)
 // cats2.find((cat, index) =>{console.log(index)})
