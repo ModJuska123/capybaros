@@ -116,4 +116,10 @@ const j = cats2.find(cat => {
     return counter == what;
 });
 console.log(j);
+
+const catsFiltered = cats2.find(cat => if (cat.name == 'Tomas') {
+
+}
+
+)
 // cats2.find((cat, index) =>{console.log(index)})
