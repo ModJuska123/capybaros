@@ -1,18 +1,38 @@
+// Parašykite funkciją, kurios argumentas būtų tekstas, kuris yra 
+// atspausdinamas su console.log
 console.log('1. Parašykite funkciją, kurios argumentas būtų tekstas, kuris yra atspausdinamas su console.log;')
 
-const item = 'Hello World!';
-function text(item) {return item};
-console.log(text(item));
+const labas = 'Labas rytas Lietuva!';
+function text(labas) {return labas};
+console.log(text (labas));
 
 
 console.log('2. ---------')
-// Parašykite funkciją su dviem argumentais, pirmas argumentas tekstas, įterpiamas atspausdinamas su console.log, o antrasis kiek kartų spausdinimas atliekamas. Rašydami šią funkciją remkitės pirmame uždavinyje parašytą funkciją;
+// Parašykite funkciją su dviem argumentais, pirmas argumentas tekstas, 
+// įterpiamas atspausdinamas su console.log, o antrasis kiek kartų 
+// spausdinimas atliekamas. Rašydami šią funkciją remkitės pirmame 
+// uždavinyje parašytą funkciją;
 
-const12 = 'Hello World!'
-const number = 2
-const text1 = (const12, number) => const12;
-console.log(const12.repeat(number))
+// I var:
 
+let kartai = 2; 
+
+for (let counter = 1; counter <= kartai; counter++) {
+console.log(labas);
+}
+
+// II var: 
+
+(function loop(i) {
+    if (i < kartai) {
+      console.log(labas);
+      loop(i + 1);
+    }
+  }(0));
+
+  // III var:
+ 
+console.log(labas.repeat(kartai));
 
 // Parašykite funkciją su dviem argumentais, pirmas argumentas tekstas, įterpiamas atspausdinamas su console.log, o antrasis kiek kartų spausdinimas atliekamas. Rašydami šią funkciją remkitės pirmame uždavinyje parašytą funkciją;
 // Parašykite funkciją, kuri skaičiuotų, iš kiek sveikų skaičių jos argumentas dalijasi be liekanos (išskyrus vienetą ir patį save)
