@@ -47,7 +47,6 @@
     "dev": "dead-server --host=localhost --port=4608",
     "code": "nodemon ./AdventOfCode/code.js",
     "arr": "nodemon ./003/arr.js",
-    "oop": "nodemon ./003/oop.js",
     "array": "nodemon ./002/array.js",
     "tasks": "nodemon ./001/tasks.js",
     "taskDriling": "nodemon ./001/taskDriling.js",

@@ -1,85 +1,91 @@
 console.log('This is Object Oriented Programming');
 
+// class Movie {
+//     constructor(title) {
+//         this.title = title;
+//     }
+//     show() {console.log('Show movie ' + this.title);
+//     }
+// }
+
+// const partizanai = new Movie('Partizanai');
+// const beNamuNegerai = new Movie('Be namu negerai');
+
+// // terminator.show();
+// partizanai.show();
+
+
 class Movie {
-
-    constructor(title) {
-        this.title = title;
-        console.log('Movie constructor');
+    constructor (title) {
+        this.title = title
     }
-
-    show() {
-        console.log('Show movie ' + this.title);
-    }
+    show() {console.log("Show movie " + this.title);}
 }
 
+const partizanai = new Movie ("Partizanai");
+partizanai.show();
 
-const terminator = new Movie('Terminator');
-const matrix = new Movie('Matrix');
+                // const terminatorWhat = {};
 
-// const terminatorWhat = {};
+                // const arr1 = []; // short hand for new Array();
+                // const arr2 = new Array();
 
-// const arr1 = []; // short hand for new Array();
-// const arr2 = new Array();
-
-// const array1 = [];
-// const array2 = {};
-
-terminator.show();
-matrix.show();
+                // const array1 = [];
+                // const array2 = {};
 
 // console.log(terminator, matrix);
 
 
-class Box {
-    constructor() {
-        this.item = '';
-    }
+// class Box {
+//     constructor() {
+//         this.item = '';
+//     }
 
-    put(what) {
-        this.item = what;
-    }
+//     put(what) {
+//         this.item = what;
+//     }
 
-    emptyBox() {
-        this.item = '';
-    }
-}
+//     emptyBox() {
+//         this.item = '';
+//     }
+// }
 
-const box1 = new Box();
-const box2 = new Box();
+// const box1 = new Box();
+// const box2 = new Box();
 
-box1.put('pen');
-box2.put('pencil');
-box1.put('eraser');
+// box1.put('pen');
+// box2.put('pencil');
+// box1.put('eraser');
 
-box1.emptyBox();
+// box1.emptyBox();
 
-console.log(box1, box2);
+// console.log(box1, box2);
 
-class RandomDigit {
+// class RandomDigit {
 
-    constructor() {
-        this.digit = this.rand(0, 9);
-    }
+//     constructor() {
+//         this.digit = this.rand(0, 9);
+//     }
 
-    rand(min, max) {
-        min = Math.ceil(min);
-        max = Math.floor(max);
-        return Math.floor(Math.random() * (max - min + 1) + min);
-    }
-}
-
-
-const digit1 = new RandomDigit();
-const digit2 = new RandomDigit();
-
-console.log(digit1, digit2);
+//     rand(min, max) {
+//         min = Math.ceil(min);
+//         max = Math.floor(max);
+//         return Math.floor(Math.random() * (max - min + 1) + min);
+//     }
+// }
 
 
-// Sukurti masyvą iš 10 RandomDigit objektų ir atspausdinti visus skaičius
+// const digit1 = new RandomDigit();
+// const digit2 = new RandomDigit();
 
-const arr = new Array(10)
-.fill(null)
-.map(_ => new RandomDigit())
-.map(el => console.log(el.digit) || el.digit);
+// console.log(digit1, digit2);
 
-console.log(arr
+
+// // Sukurti masyvą iš 10 RandomDigit objektų ir atspausdinti visus skaičius
+
+// const arr = new Array(10)
+// .fill(null)
+// .map(_ => new RandomDigit())
+// .map(el => console.log(el.digit) || el.digit);
+
+// console.log(arr
