@@ -42,6 +42,8 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
+    "oop": "nodemon ./004/oop.js",
+    "index": "nodemon ./004/index.js",
     "dev": "dead-server --host=localhost --port=4608",
     "code": "nodemon ./AdventOfCode/code.js",
     "arr": "nodemon ./003/arr.js",
