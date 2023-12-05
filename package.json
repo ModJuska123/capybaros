@@ -1,6 +1,8 @@
 {
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "dead": "^0.0.2",
+    "nodemon": "^3.0.1",
+    "server": "^1.0.38"
   },
   "name": "capybaros",
   "version": "1.0.0",
@@ -40,6 +42,7 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
+    "dev": "dead-server --host=localhost --port=4608",
     "code": "nodemon ./AdventOfCode/code.js",
     "a": "nodemon ./003/a.js",
     "oop": "nodemon ./003/oop.js",
