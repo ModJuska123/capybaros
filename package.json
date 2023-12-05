@@ -41,6 +41,8 @@
   },
   "scripts": {
     "code": "nodemon ./AdventOfCode/code.js",
+    "a": "nodemon ./003/a.js",
+    "oop": "nodemon ./003/oop.js",
     "array": "nodemon ./002/array.js",
     "tasks": "nodemon ./001/tasks.js",
     "taskDriling": "nodemon ./001/taskDriling.js",
