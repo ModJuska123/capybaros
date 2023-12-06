@@ -26,7 +26,7 @@ class Stikline {
 
         return this;
     }
-
+// } nespejau..................
 
 
 }
