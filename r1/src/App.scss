@@ -32,15 +32,18 @@ body {
       justify-content: center;
       align-items: center;
       &__title {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
+        padding: 5px;
       }
       &__author {
         font-size: 16px;
+        
+        color: crimson;
       }
       &__image {
         width: 120px;
-        height: 150px;
+        height: 40px;
         margin: 10px;
         img {
           width: 100%;
